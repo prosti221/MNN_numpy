@@ -1,1 +1,1 @@
-MLP using numpy.
+Multi-layer nueral network using numpy.
