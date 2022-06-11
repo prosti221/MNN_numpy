@@ -1,1 +1,1 @@
-Multi-layer nueral network using numpy.
+Implementing a singe hidden layer nueral network from scratch using numpy.
