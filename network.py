@@ -4,8 +4,6 @@ from keras.datasets import mnist
 
 
 class MNNClassifier():
-    """A multi-layer neural network with one hidden layer"""
-    
     def __init__(self,eta = 0.0089, dim_hidden = 42): #eta = 0.0096, hidden=42 best so far
         self.eta = eta
         self.dim_hidden = dim_hidden
