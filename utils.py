@@ -46,13 +46,10 @@ def sigmoid(self, X):
     return 1.0/(1.0+np.exp(-X))
 
 def add_bias(self, X):
-    # Put bias in position 0
     sh = X.shape
     if len(sh) == 1:
-        #X is a vector
         return np.concatenate([np.array([-1]), X])
     else:
-        # X is a matrix
         m = sh[0]
         bias = -np.ones((m,1)) # Makes a m*1 matrix of 1-s
         return np.concatenate([bias, X], axis  = 1) 
