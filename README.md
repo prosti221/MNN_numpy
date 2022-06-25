@@ -1,1 +1,1 @@
-Implementing a single hidden layer nueral network from scratch using numpy.
+Implementing a hidden layer feedforward nueral network from scratch using numpy.
